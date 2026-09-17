@@ -1,0 +1,7 @@
+{
+  "name": "OFS Office Management",
+  "description": "Comprehensive office management system for staff, attendance, tasks, payroll, finance, and reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

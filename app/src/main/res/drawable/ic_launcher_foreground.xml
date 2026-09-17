@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:translateX="24"
+        android:translateY="24">
+        <!-- Main building body (60x60 canvas) -->
+        <!-- Tall main tower -->
+        <path
+            android:fillColor="#E53E3E"
+            android:pathData="M18,10 L42,10 C43.1,10 44,10.9 44,12 L44,52 L16,52 L16,12 C16,10.9 16.9,10 18,10 Z" />
+        <!-- Left low tower -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M6,24 L16,24 L16,52 L6,52 C4.9,52 4,51.1 4,50 L4,26 C4,24.9 4.9,24 6,24 Z" />
+        <!-- Right low tower -->
+        <path
+            android:fillColor="#E2E8F0"
+            android:pathData="M44,28 L54,28 C55.1,28 56,28.9 56,30 L56,50 C56,51.1 55.1,52 54,52 L44,52 Z" />
+        <!-- Windows main tower -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M22,16 h4 v4 h-4 z M34,16 h4 v4 h-4 z M22,24 h4 v4 h-4 z M34,24 h4 v4 h-4 z M22,32 h4 v4 h-4 z M34,32 h4 v4 h-4 z" />
+        <!-- Office door -->
+        <path
+            android:fillColor="#111827"
+            android:pathData="M26,42 h8 v10 h-8 z" />
+        <!-- Windows side towers -->
+        <path
+            android:fillColor="#111827"
+            android:pathData="M8,30 h4 v4 h-4 z M8,38 h4 v4 h-4 z M48,34 h4 v4 h-4 z M48,42 h4 v4 h-4 z" />
+        <!-- Ground bar -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M2,52 h56 v3 h-56 z" />
+    </group>
+</vector>
